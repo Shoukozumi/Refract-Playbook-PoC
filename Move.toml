@@ -1,0 +1,11 @@
+[package]
+name = "playbook"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet" }
+
+[addresses]
+playbook =  "0x0"
+std= "0x1"
+sui =  "0x2"
